@@ -7,6 +7,8 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { IngresosComponent } from './ingresos/ingresos.component';
 import { EgresosComponent } from './egresos/egresos.component';
 import { FormsModule } from '@angular/forms';
+import { IngresoService } from './ingresos/ingresosService.service';
+import { EgresoService } from './egresos/egresosService.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [IngresoService,EgresoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
