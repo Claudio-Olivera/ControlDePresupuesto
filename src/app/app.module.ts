@@ -9,6 +9,7 @@ import { EgresosComponent } from './egresos/egresos.component';
 import { FormsModule } from '@angular/forms';
 import { IngresoService } from './ingresos/ingresosService.service';
 import { EgresoService } from './egresos/egresosService.service';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { EgresoService } from './egresos/egresosService.service';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [IngresoService,EgresoService],
   bootstrap: [AppComponent]

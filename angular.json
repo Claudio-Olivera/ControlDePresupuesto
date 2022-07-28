@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "presupuestoApp"
+  "defaultProject": "presupuestoApp",
+  "cli": {
+    "analytics": "9ec08ad8-687b-4d10-b5e2-642f10140020"
+  }
 }
